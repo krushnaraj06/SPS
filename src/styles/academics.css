@@ -1,0 +1,107 @@
+.academics-hero {
+    height: 60vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                url('https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&q=80');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin-bottom: 4rem;
+  }
+  
+  .academics-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .curriculum {
+    padding: 4rem 0;
+  }
+  
+  .curriculum h2 {
+    text-align: center;
+    color:  #1a3a5f;
+    margin-bottom: 3rem;
+  }
+  
+  .curriculum-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .grade-level {
+    padding: 2rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .grade-level h3 {
+    color:  #1a3a5f;
+    margin-bottom: 1rem;
+  }
+  
+  .grade-level ul {
+    list-style: none;
+  }
+  
+  .grade-level ul li {
+    margin-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    position: relative;
+  }
+  
+  .grade-level ul li::before {
+    content: "•";
+    color:  #1a3a5f;
+    position: absolute;
+    left: 0;
+  }
+  
+  .facilities {
+    padding: 4rem 0;
+    background-color: #f9f9f9;
+  }
+  
+  .facilities h2 {
+    text-align: center;
+    color:  #1a3a5f;
+    margin-bottom: 3rem;
+  }
+  
+  .facilities-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .facility-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .facility-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .facility-card h3 {
+    padding: 1rem;
+    color: var(--primary);
+  }
+  
+  .facility-card p {
+    padding: 0 1rem 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .academics-hero h1 {
+      font-size: 2.5rem;
+    }
+  }
