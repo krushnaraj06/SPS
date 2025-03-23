@@ -21,8 +21,7 @@ const Footer = () => {
             <ul>
               <li><Phone size={16} /> +91 95894 65678</li>
               <li><Mail size={16} /> info@sanskarschool.com</li>
-              <li><MapPin size={16} /> 127, Jagdamba Nagar near Mata Chowk,
-              Jaswadi Road, Khandwa, 450001</li>
+              <li><MapPin size={16} /> 127,JAGDAMBA NAGAR,JASWADI ROAD, <br /> NEAR MATA CHOUK,KHANDWA (M. P.)PIN-450001</li>
             </ul>
           </div>
           <div className="footer-section">

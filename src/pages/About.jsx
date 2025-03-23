@@ -38,7 +38,7 @@ We strive to develop individuals who:<br />
             <div className="message-header">
              
               <div className="profile-info">
-                <h3>Shir Karan Singh Rajput</h3>
+                <h3>Shri Karan Singh Rajput</h3>
                 <p>Director, Sanskar Public School</p>
               </div>
             </div>
@@ -59,7 +59,7 @@ We strive to develop individuals who:<br />
              
               <div className="profile-info">
                 <h3>Mr. Yashpal Rajput</h3>
-                <p>Principal, Sanskar Public School</p>
+                <p>Headmaster, Sanskar Public School</p>
               </div>
             </div>
             <div className="message-content">
@@ -69,7 +69,7 @@ We strive to develop individuals who:<br />
               <p>From Nursery to Grade 8, we provide a nurturing environment where every child is encouraged to explore, innovate, and excel. Our modern teaching techniques, technology-enabled classrooms, experiential learning, and strong moral foundation ensure that students grow into confident, responsible, and future-ready individuals.</p>
               <p>We at Sanskar Public School are committed to offering an education that blends tradition with innovation, discipline with creativity, and knowledge with ethical values. We don't just prepare children for exams—we prepare them for life.</p>
               <p>We invite you to be part of this journey where every child's potential is recognized, nurtured, and celebrated. Together, let's shape a brighter, wiser, and more empowered future!</p>
-              <p className="signature">With Warm Regards,<br />Mr. Yashpal Rajput<br />Principal, Sanskar Public School</p>
+              <p className="signature">With Warm Regards,<br />Mr. Yashpal Rajput<br />Headmaster, Sanskar Public School</p>
             </div>
           </div>
 

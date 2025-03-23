@@ -36,8 +36,7 @@ const Contact = () => {
               <MapPin size={24} />
               <div>
                 <h3>Address</h3>
-                <p>127, Jagdamba Nagar near Mata Chowk,</p>
-                <p>Jaswadi Road, Khandwa, 450001</p>
+                <p> 127,JAGDAMBA NAGAR,JASWADI ROAD, <br /> NEAR MATA CHOUK,KHANDWA (M. P.)PIN-450001</p>
                 
               </div>
             </div>

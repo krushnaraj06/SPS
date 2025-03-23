@@ -18,7 +18,7 @@ const Admissions = () => {
         <div className="process-steps">
           <div className="step">
             <h3>Step 1: Application</h3>
-            <p>Fill out the online application form with required documents</p>
+            <p>To Fill out application Form, Connect with us with required documents</p>
           </div>
           <div className="step">
             <h3>Step 2: Interaction</h3>
@@ -53,7 +53,7 @@ const Admissions = () => {
               <thead>
                 <tr>
                   <th>Class</th>
-                  <th>Age as of 31st March</th>
+                  <th>Age as of 31st July</th>
                 </tr>
               </thead>
               <tbody>
@@ -67,7 +67,7 @@ const Admissions = () => {
                 </tr>
                 <tr>
                   <td>Grade 1</td>
-                  <td>5+ years</td>
+                  <td>6+ years</td>
                 </tr>
               </tbody>
             </table>
