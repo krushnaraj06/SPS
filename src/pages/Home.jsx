@@ -67,7 +67,7 @@ const Home = () => {
         </div>
       </section>
       
-      <Testimonials />
+      
     </div>
   );
 };
