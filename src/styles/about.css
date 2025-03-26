@@ -1,15 +1,19 @@
 .about-hero {
-    height: 60vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-                url('https://images.unsplash.com/photo-1546410531-bb4caa6b424d?auto=format&fit=crop&q=80');
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: white;
-    margin-bottom: 4rem; 
-  }
+  height: 100vh;
+  background: linear-gradient(rgba(254, 247, 247, 0.6), rgba(0, 0, 0, 0.6)),
+  url('/public/images/aboutus.png');
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-position: center center; /* Centers the image both horizontally and vertically */
+  background-repeat: no-repeat; /* Prevents image from repeating */
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centers content horizontally */
+  text-align: center;
+  color: white;
+  margin-bottom: 4rem;
+  width: 100%; /* Ensure full width */
+  position: relative; /* For potential absolute positioning of content */
+}
   
   .about-hero h1 {
     font-size: 3rem;
@@ -523,5 +527,71 @@ blockquote {
     width: 60px;
     height: 60px;
     font-size: 1.5rem;
+  }
+}
+
+/* Responsive Grid System */
+@media (max-width: 992px) {
+  .grid-4 { 
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+@media (max-width: 768px) {
+  .grid-3 { 
+    grid-template-columns: repeat(2, 1fr); 
+  }
+  
+  /* Typography adjustments */
+  h1 { 
+    font-size: var(--font-size-2xl); 
+  }
+  h2 { 
+    font-size: var(--font-size-xl); 
+  }
+}
+
+@media (max-width: 576px) {
+  /* Full-width grid */
+  .grid-2, 
+  .grid-3, 
+  .grid-4 { 
+    grid-template-columns: 1fr; 
+  }
+  
+  /* Container padding adjustment */
+  .container { 
+    padding: 0 var(--space-md); 
+  }
+  
+  /* Typography further adjustments */
+  h1 { 
+    font-size: var(--font-size-xl); 
+  }
+  h2 { 
+    font-size: var(--font-size-lg); 
+  }
+}
+
+/* Responsive Root Variable Adjustments */
+@media (max-width: 992px) {
+  :root {
+    --font-size-3xl: 2.25rem;
+    --font-size-2xl: 1.75rem;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --space-lg: 1.5rem;
+    --space-xl: 2.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  :root {
+    --font-size-xl: 1.25rem;
+    --font-size-lg: 1.125rem;
+    --space-lg: 1.25rem;
   }
 }

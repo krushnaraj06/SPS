@@ -1,7 +1,7 @@
 .academics-hero {
-    height: 60vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-                url('https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&q=80');
+    height: 100vh;
+    background: linear-gradient(rgba(254, 247, 247, 0.6), rgba(0, 0, 0, 0.6)),
+    url('/public/images/academics.png');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -105,3 +105,4 @@
       font-size: 2.5rem;
     }
   }
+  

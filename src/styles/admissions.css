@@ -1,7 +1,7 @@
 .admissions-hero {
-    height: 60vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-                url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=80');
+    height: 100vh;
+    background: linear-gradient(rgba(254, 247, 247, 0.6), rgba(0, 0, 0, 0.6)),
+    url('/public/images/ihome2.avif');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -113,3 +113,113 @@
       font-size: 2.5rem;
     }
   }
+
+  /* Responsive Grid System */
+@media (max-width: 992px) {
+  .grid-4 { 
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+@media (max-width: 768px) {
+  .grid-3 { 
+    grid-template-columns: repeat(2, 1fr); 
+  }
+  
+  /* Typography adjustments */
+  h1 { 
+    font-size: var(--font-size-2xl); 
+  }
+  h2 { 
+    font-size: var(--font-size-xl); 
+  }
+}
+
+@media (max-width: 576px) {
+  /* Full-width grid */
+  .grid-2, 
+  .grid-3, 
+  .grid-4 { 
+    grid-template-columns: 1fr; 
+  }
+  
+  /* Container padding adjustment */
+  .container { 
+    padding: 0 var(--space-md); 
+  }
+  
+  /* Typography further adjustments */
+  h1 { 
+    font-size: var(--font-size-xl); 
+  }
+  h2 { 
+    font-size: var(--font-size-lg); 
+  }
+}
+
+/* Responsive Root Variable Adjustments */
+@media (max-width: 992px) {
+  :root {
+    --font-size-3xl: 2.25rem;
+    --font-size-2xl: 1.75rem;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --space-lg: 1.5rem;
+    --space-xl: 2.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  :root {
+    --font-size-xl: 1.25rem;
+    --font-size-lg: 1.125rem;
+    --space-lg: 1.25rem;
+  }
+}
+
+/* Prevent zooming and ensure proper scaling */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  touch-action: manipulation;
+}
+
+/* Reset any unwanted transforms or scales */
+body {
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Ensure form elements don't cause zooming on focus */
+input,
+textarea,
+select {
+  font-size: 16px; /* Minimum font size to prevent iOS zooming */
+ 
+}
+
+/* Media query specifically for mobile devices */
+@media screen and (max-width: 767px) {
+  /* Reset any padding/margins that might cause overflow */
+  body, .container {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+  /* Ensure content fits within viewport */
+  img, iframe, video {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Prevent horizontal scrolling */
+  * {
+    max-width: 100%;
+  }
+}

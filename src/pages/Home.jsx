@@ -8,11 +8,16 @@ const Home = () => {
     <div className="home">
       <section className="hero">
         <div className="container">
+          <img 
+            className="hero-logo" 
+            src="/spslogo.png" 
+            alt="Sanskar Public School Logo" 
+          /> 
+          
           <h1 className="fade-in">Welcome to Sanskar Public School</h1>
           <p className='medium'>English Medium - Nursery to 8th <br />
           DISE NO - 23290710307</p>
           <p className="slide-in">तमसो मा ज्योतिर्गमय – Lead us from darkness to light</p>
-          <Link to="/admissions" className="btn btn-primary">Apply Now</Link>
         </div>
       </section>
 
@@ -22,10 +27,7 @@ const Home = () => {
             <h2>A Legacy of Excellence & Innovation</h2>
             <div className="divider"></div>
             
-           
-            
             <div className="vision-block">
-              
               <p>From Nursery to Grade 8, Sanskar Public School offers a progressive, student-centred learning environment where education is dynamic, interactive, and experiential. Our cutting-edge curriculum, technology-enabled classrooms, and activity-based learning methods ensure that each child receives a well-rounded and future-ready education.</p>
               <p>We believe that every child is a torchbearer of change, and our role is to illuminate their path with knowledge, wisdom, and strong values. With experienced educators, a nurturing environment, and a focus on 21st-century skills, we empower our students to dream, achieve, and lead.</p>
             </div>
@@ -65,7 +67,6 @@ const Home = () => {
         </div>
       </section>
       
-      {/* Adding the Testimonials section */}
       <Testimonials />
     </div>
   );

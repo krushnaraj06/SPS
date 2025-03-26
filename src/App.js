@@ -7,7 +7,7 @@ import About from './pages/About';
 import Academics from './pages/Academics';
 import Admissions from './pages/Admissions';
 import Contact from './pages/Contact';
-import './styles/global.css';
+
 
 function App() {
   return (
