@@ -1,5 +1,5 @@
 .about-hero {
-  height: 100vh;
+  height: 60vh;
   background: linear-gradient(rgba(254, 247, 247, 0.6), rgba(0, 0, 0, 0.6)),
   url('/public/images/aboutus.png');
   background-size: cover; /* Ensures the image covers the entire container */

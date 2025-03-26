@@ -1,5 +1,5 @@
 .admissions-hero {
-    height: 100vh;
+    height: 60vh;
     background: linear-gradient(rgba(254, 247, 247, 0.6), rgba(0, 0, 0, 0.6)),
     url('/public/images/ihome2.avif');
     background-size: cover;
@@ -211,7 +211,6 @@ select {
     padding-left: 5px;
     padding-right: 5px;
   }
-  
   /* Ensure content fits within viewport */
   img, iframe, video {
     max-width: 100%;
